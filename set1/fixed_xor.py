@@ -1,5 +1,7 @@
 import binascii
 
+#Equal len xor
+
 def equal_xor(hex_string, key):
     xored_string = []
     hex_string = bytes.fromhex(hex_string)
